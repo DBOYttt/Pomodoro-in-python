@@ -15,7 +15,9 @@ while 1:
     if y in f:
        d = True
     if d == True:
-        print(f.find(y))
+        if y in int(f.readline(1)) + 25:
+            print('time to rest :)')
+
 
  
     
