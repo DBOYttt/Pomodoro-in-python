@@ -1,5 +1,6 @@
 import datetime
 from gettext import find
+from operator import index
 import os
 
 while 1:
@@ -11,14 +12,14 @@ while 1:
     d.close()
     f = open('pomodoro1.txt', 'r')
     f.read()
-    find(y in d)
-    if y == y
+    if y in f:
+       d = True
+    if d == True:
+        print(f.find(y))
 
+ 
+    
 
-d = open('pomodoro1', 'r')
-z = d.read()
-if t in z :
-    print('here')
 
 
 #if y == int(z) + 1:
